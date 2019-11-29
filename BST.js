@@ -44,6 +44,41 @@ class BST {
         }
     }
 
+    remove(data) {
+        
+        const removeNode = function(node, data) {
+            if(node.data === data) {
+                if(node.left === null && node.right === null) {
+                    return null;
+                }
+                if(node.left === null) {
+                    return node.right;
+                }
+                if(node.right === null) {
+                    return node.left;
+                }
+
+                var tempNode = node.right;
+                while(tempNode.left !== null) {
+                    tempNode = tempNode.left;
+                }
+                node.left = tempNode.left;
+                node.right = removeNode(node.right, tempNode.data);
+                return node;
+            }
+            else if(data < node.data) {
+                node.left = removeNode(node.left, data);
+                return node;
+            }
+            else {
+                node.right = removeNode(node.right, data);
+                return node;
+            }
+        };
+
+        this.root = removeNode(this.root, data);
+    }
+
     findMin() {
         let current = this.root;
         while(current.left !== null) {
@@ -59,16 +94,54 @@ class BST {
         }
         return current.data;
     }
+
+    find(data) {
+        let current = this.root;
+
+        while(current.data !== data) {
+            if(data < current.data) {
+                current = current.left;
+            }
+            else {
+                current = current.right;
+            }
+            if(data === null) {
+                return null;
+            }
+        }
+        return current;
+    }
+
+    isPresent(data) {
+        let current = this.root;
+        while(current) {
+            if(current.data === data) {
+                return true;
+            }
+            else if(data < current.data) {
+                current = current.left;
+            }
+            else {
+                current = current.right;
+            }
+        }
+        return false;
+    }
 }
 
 const myBST = new BST();
 
-myBST.add("20")
-myBST.add("10")
-myBST.add("40")
-myBST.add("15")
-myBST.add("25")
-myBST.add("5")
+myBST.add(20)
+myBST.add(10)
+myBST.add(40)
+myBST.add(15)
+myBST.add(25)
+myBST.add(5)
 // console.log(myBST.root)
 // console.log(myBST.findMin())
-console.log(myBST.findMax())
+// console.log(myBST.findMax())
+// console.log(myBST.find(40))
+// console.log(myBST.isPresent(400))
+// myBST.remove(10);
+myBST.remove(20);
+console.log(myBST.root)
