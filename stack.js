@@ -36,7 +36,7 @@ myStack.push("Raji");
 myStack.push("Raji");
 myStack.push("Raji");
 console.log(myStack.storage);
-myStack.pop();
-console.log(myStack.storage)
-console.log(myStack.size())
-console.log(myStack.peek())
+// myStack.pop();
+// console.log(myStack.storage)
+// console.log(myStack.size())
+// console.log(myStack.peek())

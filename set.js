@@ -53,6 +53,7 @@ var Set = function() {
     this.difference = function(otherSet) {
         var differenceSet = new Set();
         var firstSet = this.values();
+        var secondSet = otherSet.values();
         firstSet.forEach(value => {
             if(!otherSet.has(value)) {
                 differenceSet.add(value);
@@ -69,26 +70,37 @@ var Set = function() {
     }
 }
 
-var setA = new Set();
-setA.add("Mani1")
-setA.add("Mani2")
-setA.add("Mani3")
-// console.log(setA.has("Mani5"))
-// console.log(setA.values())
-// setA.remove("Mani3")
-// console.log(setA.values())
-var setB = new Set();
-setB.add("Raji1")
-setB.add("Raji2")
-setB.add("Raji3")
-setB.add("Mani1")
-setB.add("Mani3")
-setB.add("Mani2")
+// var setA = new Set();
+// setA.add("Mani1")
+// setA.add("Mani2")
+// setA.add("Mani3")
+// // console.log(setA.has("Mani5"))
+// // console.log(setA.values())
+// // setA.remove("Mani3")
+// // console.log(setA.values())
+// var setB = new Set();
+// setB.add("Raji1")
+// setB.add("Raji2")
+// setB.add("Raji3")
+// setB.add("Mani1")
+// setB.add("Mani3")
+// setB.add("Mani2")
 
-// console.log(setA.union(setB));
-// console.log(setA.intersection(setB))
-// console.log(setA.difference(setB))
-// console.log(setB.difference(setA))
-// console.log(setB.size())
-console.log(setA.subset(setB));
+// // console.log(setA.union(setB));
+// // console.log(setA.intersection(setB))
+// // console.log(setA.difference(setB))
+// // console.log(setB.difference(setA))
+// // console.log(setB.size())
+// console.log(setA.subset(setB));
+
+var setA = new Set();
+setA.add(1)
+setA.add(2)
+setA.add(3)
+var setB = new Set();
+setB.add(5)
+setB.add(1)
+setB.add(2)
+setB.add(4)
+console.log(setA.difference(setB))
 

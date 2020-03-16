@@ -141,7 +141,7 @@ myBST.add(5)
 // console.log(myBST.findMin())
 // console.log(myBST.findMax())
 // console.log(myBST.find(40))
-// console.log(myBST.isPresent(400))
+console.log(myBST.isPresent(400))
 // myBST.remove(10);
-myBST.remove(20);
+// myBST.remove(20);
 console.log(myBST.root)
