@@ -1,6 +1,15 @@
 class MySet {
-    constructor() {
+    constructor(data) {
         this.collection = [];
+        if (data) {
+            this.constructSet(data);
+        }
+    }
+
+    constructSet(data) {
+        data.forEach(item => {
+            this.add(item);
+        });
     }
 
     has(data) {
