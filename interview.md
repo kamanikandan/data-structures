@@ -4,26 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amazon Interview Preparation</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-      body {
-        /* font-family: Arial, Helvetica, sans-serif; */
-        /* font-family: 'Roboto', sans-serif; */
-        font-family: 'Lato', sans-serif;
-        line-height: 25px;
-        box-sizing: border-box;
-        padding: 50px;
-      }
-      b {
-          font-size: 1.5rem;
-          font-weight: 700;
-      }
-      h1 {
-          font-size: 40px;
-          font-weight: 700;
-      }
-    </style>
   </head>
   <body>
     <div class="pagedlist_item" id="wOzZrYIF3">
@@ -192,7 +172,7 @@
                                       <p
                                         class="ui_qtext_para u-ltr u-text-align--start"
                                       >
-                                        <b>Always good to keep in mind:</b>
+                                        <h3>Always good to keep in mind:</h3>
                                       </p>
                                       <ul>
                                         <li>
@@ -233,7 +213,7 @@
                                       <p
                                         class="ui_qtext_para u-ltr u-text-align--start"
                                       >
-                                        <b>Interview Tips</b>
+                                        <h3>Interview Tips</h3>
                                       </p>
                                       <p
                                         class="ui_qtext_para u-ltr u-text-align--start"
@@ -263,7 +243,7 @@
                                       <p
                                         class="ui_qtext_para u-ltr u-text-align--start"
                                       >
-                                        <b>Data Structures</b>
+                                        <h3>Data Structures</h3>
                                       </p>
                                       <p
                                         class="ui_qtext_para u-ltr u-text-align--start"
@@ -299,7 +279,7 @@
                                       <p
                                         class="ui_qtext_para u-ltr u-text-align--start"
                                       >
-                                        <b>Algorithms</b>
+                                        <h3>Algorithms</h3>
                                       </p>
                                       <p
                                         class="ui_qtext_para u-ltr u-text-align--start"
@@ -332,7 +312,7 @@
                                       <p
                                         class="ui_qtext_para u-ltr u-text-align--start"
                                       >
-                                        <b>Coding</b>
+                                        <h3>Coding</h3>
                                       </p>
                                       <p
                                         class="ui_qtext_para u-ltr u-text-align--start"
@@ -370,7 +350,7 @@
                                       <p
                                         class="ui_qtext_para u-ltr u-text-align--start"
                                       >
-                                        <b>Object-Oriented Design</b>
+                                        <h3>Object-Oriented Design</h3>
                                       </p>
                                       <p
                                         class="ui_qtext_para u-ltr u-text-align--start"
@@ -410,7 +390,7 @@
                                       <p
                                         class="ui_qtext_para u-ltr u-text-align--start"
                                       >
-                                        <b>Databases</b>
+                                        <h3>Databases</h3>
                                       </p>
                                       <p
                                         class="ui_qtext_para u-ltr u-text-align--start"
@@ -436,7 +416,7 @@
                                       <p
                                         class="ui_qtext_para u-ltr u-text-align--start"
                                       >
-                                        <b>Distributed Computing Systems</b>
+                                        <h3>Distributed Computing Systems</h3>
                                       </p>
                                       <p
                                         class="ui_qtext_para u-ltr u-text-align--start"
@@ -461,7 +441,7 @@
                                       <p
                                         class="ui_qtext_para u-ltr u-text-align--start"
                                       >
-                                        <b>Operating Systems</b>
+                                        <h3>Operating Systems</h3>
                                       </p>
                                       <p
                                         class="ui_qtext_para u-ltr u-text-align--start"
@@ -475,7 +455,7 @@
                                       <p
                                         class="ui_qtext_para u-ltr u-text-align--start"
                                       >
-                                        <b>Internet Topics</b>
+                                        <h3>Internet Topics</h3>
                                       </p>
                                       <ul>
                                         <li>
@@ -500,7 +480,7 @@
                                       <p
                                         class="ui_qtext_para u-ltr u-text-align--start"
                                       >
-                                        <b>Leadership Principles</b>
+                                        <h3>Leadership Principles</h3>
                                       </p>
                                       <p
                                         class="ui_qtext_para u-ltr u-text-align--start"
